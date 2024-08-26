@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    border-radius: 2%;
+}
+#box1,#box2,#box3,#box4{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#box1{
+    background-color: red;    
+}
+#box2{
+    background-color: yellow;
+}
+#box3{
+    background-color: blue;
+}
+#box4{
+    background-color: green;
+}
+h1{
+    color: black;
+}
